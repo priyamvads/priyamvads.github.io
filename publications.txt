@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<head>
+<title>Publications</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+<!-- get fancybox -->
+<link rel="stylesheet" type="text/css" itemprop="javascript" href="js/fancybox/jquery.fancybox.css" media="all">
+<script src="js/fancybox/jquery.fancybox-1.2.1.js"></script>
+<script>$('ol#menu').simpleMenu();</script>
+<!-- END Dynamic Menu -->
+<body>
+<div class="header">
+  <div id="site_title"><a href="index.html"><hh> Priyamvad Srivastav</hh></a></div>
+  <!-- Dynamic Menu -->
+  <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
+    <li class="first"><a href="contact.html">Contact</a></li>
+    <li class="last"><a href="misc.html">Activities</a></li>
+    <li class="last"><a href="publications.html">Publications</a></li>
+    <li class = "last"><a href="research.html">Research</a></li>
+    <li><a href="index.html">Home</a></li>
+
+  </ol>
+</div>
+
+<div class="wrapperr">
+  <li> <img src="img/imggp.jpg" alt="">
+    <div class="ei-title">
+      <h1>Publications</h1>
+    </div>
+  </li>
+</div>
+<!-- wrapper -->
+
+
+<div style="clear:both; height: 81px"></div>
+
+<div id="container" style="box-shadow: none; border: none">	
+
+
+   
+
+<!--
+ <div class = "square">
+    <h2>Preprint(s)</h2>
+  </div>
+
+
+<div class = "inner-content">
+​    <ul>
+      <li> <b>Preprint 1 </b></li>
+    </ul>
+  </div>
+
+  <div style="clear:both; height: 100px"></div>
+  
+-->
+
+  <div class = "square">
+    <h2>Publications</h2>
+  </div>
+  
+  <div class = "inner-content">
+​    <ul>
+      <li><b>Convolution of periodic multiplicative functions and the divisor problem </b> <br> &emsp; &nbsp; (with Marco Aymone, Gopal Maiti and Olivier Ramaré), <br> 
+&emsp; &nbsp; to appear in Canadian Journal of Mathematics, (2024). &nbsp; <a href = "https://doi.org/10.4153/S0008414X2400066X">Journal</a> &nbsp; <a href = "https://arxiv.org/abs/2305.06260">arXiv </a> 
+      </li>
+
+​​      <li> <b>Explicit bounds for product of primes in AP </b> <br> 
+&emsp; &nbsp; (with R. Balasubramanian and Olivier Ramaré), <br> 
+&emsp; &nbsp; Mathematics of Computation, 92 (343), 2381-2411, (2023). &nbsp; <a href = "https://www.ams.org/journals/mcom/2023-92-343/S0025-5718-2023-03853-4/">Journal </a> 
+      </li>
+​
+
+      <li>​ <b>Product of three primes in large arithmetic progressions </b> <br>
+&emsp; &nbsp; (with R. Balasubramanian and Olivier Ramaré), <br> 
+&emsp; &nbsp; International Journal of Number Theory, Vol. 19, No. 04, pp. 843-857, (2023). &nbsp; 
+<a href="https://www.worldscientific.com/doi/10.1142/S1793042123500422">Journal</a> &nbsp; <a href = "https://arxiv.org/abs/2208.04031">arXiv</a>
+      </li>
+
+      <div style="clear:both; height: 23px"></div>
+
+      <li> <b>Product of primes in arithmetic progressions </b> <br> 
+&emsp; &nbsp; (with Olivier Ramaré and Oriol Serra), <br>
+&emsp; &nbsp; International Journal of Number Theory, Vol. 16, No. 04, pp. 747-766, (2020). &nbsp; <a href = "https://www.worldscientific.com/doi/10.1142/S1793042120500384">Journal</a>
+      </li>
+
+      <div style="clear:both; height: 23px"></div>
+
+      <li> <b> On a Question of Rawsthorne </b> <br> 
+&emsp; &nbsp; (with R. Balasubramanian), <br> 
+&emsp; &nbsp; Special Issue, Proc. of Telangana Acad. of Sciences, Vol. 01, No. 01, 169-180, (2020). &nbsp; <a href = "https://www.tasc.org.in/images/pdf/frontiers-in-mathamatics.pdf">Journal</a>
+      </li>
+
+      <div style="clear:both; height: 23px"></div>
+
+      <li> <b>On the number of factorizations of an integer </b> <br> 
+&emsp; &nbsp; (with R. Balasubramanian), <br>
+&emsp; &nbsp; J. Ramanujan Math. Soc. 32, no. 4, 417-430, (2017). &nbsp; <a href = "http://www.mathjournals.org/jrms/2017-032-004/2017-032-004-005.html">Journal</a> &nbsp; <a href = "https://arxiv.org/abs/1609.08602">arXiv</a>
+      </li>
+
+      <div style="clear:both; height: 23px"></div>
+
+      <li> <b>On Selberg’s approximation to the twin prime problem </b> <br>
+&emsp; &nbsp; (with R. Balasubramanian), <br>
+&emsp; &nbsp; Acta Arith. 179, no. 4, 335-361, (2017). &nbsp; <a href = "https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/179/4/92275/on-selberg-s-approximation-to-the-twin-prime-problem">Journal</a> &nbsp; <a href = "https://arxiv.org/abs/1504.04347">arXiv</a>
+      </li>
+
+
+      <div style="clear:both; height: 23px"></div>
+
+      <li> <b>On correlations of certain multiplicative functions </b> <br> 
+&emsp; &nbsp; (with R. Balasubramanian and Sumit Giri), <br>
+&emsp; &nbsp; J. Number Theory, 174, 221-238, (2017). &nbsp; <a href = "https://www.sciencedirect.com/science/article/pii/S0022314X16302839">Journal</a> &nbsp; <a href = "https://arxiv.org/abs/1511.02221">arXiv</a>
+      </li>
+    </ul>
+
+  </div>
+
+
+  <div class = "outermost-content">
+    <div class = "square">
+      <h2> Links </h2>
+    </div>
+    
+    <div style="clear:both; height: 225px"></div>
+   
+    
+      <h6> <a href = "https://mathscinet.ams.org/mathscinet/MRAuthorID/1193653">MathSciNet </a></h6>
+        <div style="clear:both; height: 20px"></div>
+      <h6> <a href = "https://arxiv.org/search/math?searchtype=author&query=Priyamvad">arXiv</a></h6>
+	<div style="clear:both; height: 20px"></div>
+     <h6> <a href = "https://scholar.google.com/citations?user=eWEZPhYAAAAJ&hl=en">Google Scholar</a></h6>
+	<div style="clear:both; height: 20px"></div>
+      <h6> <a href = "http://www.hbni.ac.in/phdthesis/math/MATH10201205001.pdf">Ph.D Thesis </a></h6>
+ 
+
+
+  </div>
+
+
+</div>
+<!-- close container -->
+
+
+<div style="clear:both; height: 275px"></div>
+
+<div id="footer">
+ &emsp; Theme via <a href="http://www.csstemplateheaven.com"> CssTemplateHeaven</a> &emsp;
+</div>
+</body>
+</html>
