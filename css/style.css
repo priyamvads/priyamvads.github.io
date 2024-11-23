@@ -12,14 +12,6 @@ html {
 }
 
 @font-face {
-  font-family: 'Open Sans Condensed';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/opensanscondensed/v23/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDujMR7eS2AopSg.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-@font-face {
 	font-family: GeosansLight;
 	src: url('../fonts/GeosansLight.ttf');
 }
@@ -144,7 +136,7 @@ h1, h2, h3, h4, h5, h6, hh { font-family: 'Open Sans Condensed', sans-serif; }
 
 h1 {font-size: 60px;  margin: -50px -625px 200px 200px; color: #FEFFFF; font-weight: bold; text-align: center; width: 700px; font-family: 'Forum'}
 
-h2 {font-size: 32px;  font-weight: bold; text-align: center; width: auto; line-height: 0.96;font-family: 'Forum'}
+h2 {font-size: 34px;  font-weight: bold; text-align: center; width: auto; line-height: 0.96;font-family: 'Open sans condensed'}
 
 h3 {font-size: 22px;  font-weight: normal; text-align: left; width: auto; margin: 12px 0 2px 0; font-family:none}
 
@@ -156,7 +148,7 @@ h6 {font-size: 18px; font-weight: bold; margin: 0 0 0 0; text-align: center; wid
 
 /* h4 {font-size: 1.2em; font-weight: 700} */
 
-hh {font-size: 23px;  font-weight: bold; text-align: center; width: auto; font-family: 'Jacques'; color: #fafaf2; float: left; padding-top: 16px; margin-left: 18px;}
+hh {font-size: 22px;  font-weight: bold; text-align: center; width: auto; font-family: 'Jacques'; color: #fafaf2; float: left; padding-top: 16px; margin-left: 18px;}
 
 /* #hh {float: left; padding-top: 7.5px; margin-left: -20px;} #fbfbf1*/
 
@@ -234,7 +226,7 @@ Margin-top: -65px;
     width: auto:; /* Adjust width as needed */
     height: 239px; /* Maintain aspect ratio */
     position: absolute;
-    left: 2%; /* 2.75% */
+    left: 1.75%; /* 2.75% */
 }
 
 .square {
