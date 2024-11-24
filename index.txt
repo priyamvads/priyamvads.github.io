@@ -69,9 +69,9 @@ jQuery.noConflict()(function ($) {
   </div>
 
   <div class="inner-content">
-    <p>I am a researcher in Mathematics working broadly in the field of Analytic Number theory. I also take interest in the interface of Number theory and Combinatorics. </p>
+    <p>I am a researcher in Mathematics working in the field of Analytic Number theory. I also take interest in the interface of Number theory and Combinatorics. </p>
 
-    <p>Previously, I was a postdoctoral researcher in Mathematics at the Georg-August-Universität in Göttingen, Germany. Prior to it, I was a postdoctoral fellow at the Chennai Mathematical Institute. I obtained my Doctorate from the Institute of Mathematical Sciences, Chennai in July 2019.</p> 
+    <p>Previously, I was a postdoctoral researcher in the Mathematisches-Institut at the Georg-August-Universität in Göttingen, Germany. Prior to it, I was a postdoctoral fellow at the Chennai Mathematical Institute. I obtained my Doctorate from the Institute of Mathematical Sciences, Chennai in July 2019.</p> 
   </div>
 
   <div style="clear:left; height: 60px"></div>

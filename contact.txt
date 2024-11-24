@@ -42,7 +42,7 @@ function showEmail() {
 <!-- END Dynamic Menu -->
 <body>
 <div class="header">
-  <div id="site_title"><a href="index.html"><hh> Priyamvad Srivastav</hh></a></div>
+  <div id="site_title"><a href="index.html"><hh>Priyamvad Srivastav</hh></a></div>
   <!-- Dynamic Menu -->
   <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
     <li class="first"><a href="contact.html">Contact</a></li>
