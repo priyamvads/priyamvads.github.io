@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 <script src="js/jquery.min.js"></script>
 <script src="js/custom.js"></script>
 
@@ -20,7 +20,7 @@
   <!-- Dynamic Menu -->
   <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
     <li class="first"><a href="contact.html">Contact</a></li>
-    <li class="last"><a href="misc.html">Activities</a></li>
+    <li class="last"><a href="activities.html">Activities</a></li>
     <li class="last"><a href="publications.html">Publications</a></li>
     <li class = "last"><a href="research.html">Research</a></li>
     <li><a href="index.html">Home</a></li>

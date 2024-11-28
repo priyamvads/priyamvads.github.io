@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.eislideshow.js"></script>
 <script src="js/custom.js"></script>
@@ -22,7 +22,7 @@
   <!-- Dynamic Menu -->
   <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
     <li class="first"><a href="contact.html">Contact</a></li>
-    <li class="last"><a href="misc.html">Activities</a></li>
+    <li class="last"><a href="activities.html">Activities</a></li>
     <li class="last"><a href="publications.html">Publications</a></li>
     <li class = "last"><a href="research.html">Research</a></li>
     <li><a href="index.html">Home</a></li>
@@ -49,7 +49,7 @@
   
   
   <div class = "inner-content">
-   <p>My research interests are mainly focused around Analytic Number theory, primarily studying the distribution of primes as well as in Combinatorial Number theory. I also take particular interest in obtaining fully explicit results. </p> 
+   <p>My research interests lie in analytic number theory, primarily in the distribution of primes and also in combinatorial number theory. I also take interest in obtaining fully explicit results. </p> 
 
    <p> My research could be broadly classified into: </p>
 
@@ -57,11 +57,11 @@
       <li> Sieve theory -  applications to arithmetic problems, estimating primes in cosets, refinement and applications of the large sieve inequality, etc. 
       </li>
 
-​​      <li> The Circle method, exponential sums over primes and their applications to problems of additive and multiplicative nature. 
+​​      <li> The circle method, exponential sums over primes and their applications to problems of additive and multiplicative nature. 
       </li>
 ​
 
-      <li>​ The interface of  additive combinatorics and Number theory - distribution of products of primes in arithmetic progressions,  applications of the Transference principle, etc.
+      <li>​ The interface of  additive combinatorics and number theory - distribution of products of primes in arithmetic progressions, applications of the transference principle, etc.
       </li>
 
       <div style="clear:both; height: 23px"></div>
