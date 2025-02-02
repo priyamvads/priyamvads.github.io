@@ -1,109 +1,114 @@
 <!DOCTYPE HTML>
+
 <head>
-<title>Contact</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.eislideshow.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/crypto-js.js"></script>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic'
+    rel='stylesheet' type='text/css' />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.eislideshow.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/crypto-js.js"></script>
 
-<!-- get fancybox -->
-<link rel="stylesheet" type="text/css" itemprop="javascript" href="js/fancybox/jquery.fancybox.css" media="all">
+  <!-- get fancybox -->
+  <link rel="stylesheet" type="text/css" itemprop="javascript" href="js/fancybox/jquery.fancybox.css" media="all">
 
-<script src="js/fancybox/jquery.fancybox-1.2.1.js"></script>
-<script>$('ol#menu').simpleMenu();</script>
+  <script src="js/fancybox/jquery.fancybox-1.2.1.js"></script>
+  <script>$('ol#menu').simpleMenu();</script>
 
-<script>
-function encrypt(text, key) {
-    return CryptoJS.AES.encrypt(text, key).toString();
-}
+  <script>
+    function encrypt(text, key) {
+      return CryptoJS.AES.encrypt(text, key).toString();
+    }
 
-function decrypt(text, key) {
-    var bytes  = CryptoJS.AES.decrypt(text, key);
-    return bytes.toString(CryptoJS.enc.Utf8);
-}
+    function decrypt(text, key) {
+      var bytes = CryptoJS.AES.decrypt(text, key);
+      return bytes.toString(CryptoJS.enc.Utf8);
+    }
 
-function showEmail() {
-    var Key0 = 'kfqlxeGe6GJtrEjANMoGfxl16J9f5LCBsztg3MWbR0A=';
-    var mKey = 'dAX7vxKZqYWh-ihkOLqx7sR45RCDxqOkAUUhJeeLkPM=';
-    var eEmail0 = 'U2FsdGVkX1+dwM7wOo+LOYpluorYm1SI7rRnIu6MyiTn7eP4bRhrWBULoGT29YnA';
-    var dEmail0 = decrypt(eEmail0, Key0);
+    function showEmail() {
+      var Key0 = 'kfqlxeGe6GJtrEjANMoGfxl16J9f5LCBsztg3MWbR0A=';
+      var mKey = 'dAX7vxKZqYWh-ihkOLqx7sR45RCDxqOkAUUhJeeLkPM=';
+      var eEmail0 = 'U2FsdGVkX1+dwM7wOo+LOYpluorYm1SI7rRnIu6MyiTn7eP4bRhrWBULoGT29YnA';
+      var dEmail0 = decrypt(eEmail0, Key0);
 
 
-    document.getElementById("email").innerHTML = "<h4>" + dEmail0 + "</h4>";
-    document.getElementById("email").style.display = "inline";
+      document.getElementById("email").innerHTML = "<h4>" + dEmail0 + "</h4>";
+      document.getElementById("email").style.display = "inline";
 
-}
-</script>
+    }
+  </script>
 
-<script>
+  <script>
     const form = document.getElementById('contactForm');
     form.addEventListener('submit', async (e) => {
-        e.preventDefault();
+      e.preventDefault();
 
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('mail').value;
-        const message = document.getElementById('message').value;
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('mail').value;
+      const message = document.getElementById('message').value;
 
-        try {
-            const response = await fetch('https://your-backend-service.onrender.com/submit-form', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name, email, message }),
-            });
+      try {
+        const response = await fetch('https://your-backend-service.onrender.com/submit-form', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, message }),
+        });
 
-            if (response.ok) {
-                alert('Form submitted successfully!');
-            } else {
-                alert('Failed to submit form. Please try again.');
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('An error occurred. Please try again.');
+        if (response.ok) {
+          alert('Form submitted successfully!');
+        } else {
+          alert('Failed to submit form. Please try again.');
         }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+      }
     });
-</script>
+  </script>
 
-<!-- END Dynamic Menu -->
+  <!-- END Dynamic Menu -->
+
 <body>
-<div class="header">
-  <div id="site_title"><a href="index.html"><hh>Priyamvad Srivastav</hh></a></div>
-  <!-- Dynamic Menu -->
-  <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
-    <li class="first"><a href="contact.html">Contact</a></li>
-    <li class="last"><a href="activities.html">Activities</a></li>
-    <li class="last"><a href="publications.html">Publications</a></li>
-    <li class = "last"><a href="research.html">Research</a></li>
-    <li><a href="index.html">Home</a></li>
+  <div class="header">
+    <div id="site_title"><a href="index.html">
+        <hh>Priyamvad Srivastav</hh>
+      </a></div>
+    <!-- Dynamic Menu -->
+    <ol id="menu" class="simple_menu simple_menu_css horizontal black_menu">
+      <li class="first"><a href="contact.html">Contact</a></li>
+      <li class="last"><a href="activities.html">Activities</a></li>
+      <li class="last"><a href="publications.html">Publications</a></li>
+      <li class="last"><a href="research.html">Research</a></li>
+      <li><a href="index.html">Home</a></li>
 
-  </ol>
-</div>
-
-<div class="wrapperr">
-  <li> <img src="img/imggc.jpg" alt="">
-    <div class="ei-title">
-      <h1>Contact</h1>
-    </div>
-  </li>
-</div>
-<!-- wrapper -->
-
-
-<div style="clear:both; height: 81px"></div>
-
-<div id="container" style="box-shadow: none; border: none">
-
-  <div class = "square">
-  <h2>Message</h2>
+    </ol>
   </div>
 
+  <div class="wrapperr">
+    <li> <img src="img/imggc.jpg" alt="">
+      <div class="ei-title">
+        <h1>Contact</h1>
+      </div>
+    </li>
+  </div>
+  <!-- wrapper -->
 
-  <div class = "inner-content">
-  <div style="clear:both; height: 1px"></div>
-  <form>
+
+  <div style="clear:both; height: 81px"></div>
+
+  <div id="container" style="box-shadow: none; border: none">
+
+    <div class="square">
+      <h2>Message</h2>
+    </div>
+
+
+    <div class="inner-content">
+      <div style="clear:both; height: 1px"></div>
+      <form>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required style="width: 200px;"><br>
 
@@ -113,35 +118,38 @@ function showEmail() {
         <label for="message">Your Message:</label><br>
         <textarea id="message" name="message" rows="10" cols="50" required></textarea><br>
         <input type="submit" value="Send message">
-    </form>
+      </form>
+    </div>
+
+
+
+    <div class="one-third">
+
+      <div id="contact" class="square">
+        <h2>Email</h2>
+      </div>
+
+      <div style="clear:both; height: 205px"></div>
+
+      <button onclick="showEmail()">
+        <h4>View Email</h4>
+      </button>
+
+      <div style="clear:both; height: 7px"></div>
+
+      <span id="email" style="display:none;"></span>
+
+    </div>
+
   </div>
- 
-  
+  <!-- close container -->
 
-  <div class = "one-third">
 
-  <div id = "contact" class = "square">
-  <h2>Email</h2>
+  <div style="clear:both; height: 250px"></div>
+
+  <div id="footer">
+    &emsp; Theme via <a href="http://www.csstemplateheaven.com"> CssTemplateHeaven</a> &emsp;
   </div>
-
-  <div style="clear:both; height: 205px"></div>
-
-  <button onclick="showEmail()"><h4>View Email</h4></button>
-
-  <div style="clear:both; height: 7px"></div>
-
-  <span id="email" style="display:none;"></span>
-
-  </div>
-
-</div>
-<!-- close container -->
-
-
-<div style="clear:both; height: 250px"></div>
-
-<div id="footer">
- &emsp; Theme via <a href="http://www.csstemplateheaven.com"> CssTemplateHeaven</a> &emsp;
-</div>
 </body>
+
 </html>
